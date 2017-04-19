@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ArgChild">
+        <attr name="childs_height" format="dimension"/>
+        <attr name="childs_width" format="dimension"/>
+        <attr name="rotate" format="integer"/>
+        <attr name="use_center" format="boolean"/>
+    </declare-styleable>
+</resources>
