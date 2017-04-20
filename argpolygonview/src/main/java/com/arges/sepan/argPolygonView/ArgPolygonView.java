@@ -9,7 +9,7 @@ import android.view.View;
  /*
     PolygonView is square.
     Children's width and height have to be defined in xml layout.
-    Rotation is optional. If not defined, first vertex is placed top of PolygonView
+    Rotation is optional. If not defined, first vertice is placed top of PolygonView
     useCenter is optional. If defined as true, first child is placed in the center of PolygonView
  */
 public class ArgPolygonView extends SquareViewGroup {
@@ -148,11 +148,11 @@ public class ArgPolygonView extends SquareViewGroup {
         float r = (parentHeight - (verticalPadding>horizantalPadding?verticalPadding:horizantalPadding))/2;// radius
 
         /*
-         Angle is used for finding each vertex of the poligon.
-         If we do not add 180, first vertex will be placed bottom.
-         If we do not use rotation first vertex will be always placed top
+         Angle is used for finding each vertice of the poligon.
+         If we do not add 180, first vertice will be placed bottom.
+         If we do not use rotation first vertice will be always placed top
           */
-        float angle = (180+rotation)%360; //degree for finding each vertex of the polygon
+        float angle = (180+rotation)%360; //degree for finding each vertice of the polygon
         float angleChange = 360/count;
         int i =0;
         /*
